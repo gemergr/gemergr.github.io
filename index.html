@@ -5,8 +5,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>GEMERGR SpA</title>
 <meta name="description" content="GEMERGR SpA, estudio chileno de videojuegos para celular y PC. Creadores de Brimful.">
-<link rel="icon" href="favicon.svg" type="image/svg+xml">
-<link rel="preload" href="assets/fuentes/unbounded-800.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="icon" href="favicon-32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="favicon-192.png" sizes="192x192" type="image/png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta name="theme-color" content="#333D47">
+<link rel="preload" href="montserrat-700.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="assets/estilo.css">
 <script>(function(){var l;try{l=localStorage.getItem('idioma')}catch(e){}if(l!=='es'&&l!=='en'){l=/^es\b/i.test(navigator.language||'')?'es':'en'}var d=document.documentElement;d.className=l;d.lang=l})();</script>
 </head>
@@ -20,25 +23,11 @@
         <button type="button" data-idioma="en" lang="en" aria-pressed="false">English</button>
       </div>
     </div>
-    <h1>
-      <svg class="marca" viewBox="0 0 1000 150" role="img" aria-label="GEMERGR">
-        <defs>
-          <clipPath id="letras"><text x="0" y="140" font-size="150" textLength="1000" lengthAdjust="spacing">GEMERGR</text></clipPath>
-          <linearGradient id="liquido" x1="0" y1="0" x2="0" y2="1">
-            <stop offset="0" stop-color="#FFE14D"/>
-            <stop offset="1" stop-color="#E08A00"/>
-          </linearGradient>
-        </defs>
-        <g clip-path="url(#letras)">
-          <rect width="1000" height="200" fill="#2E1870"/>
-          <g class="nivel">
-            <path d="M-62.5 42q31.25-9 62.5 0t62.5 0t62.5 0t62.5 0t62.5 0t62.5 0t62.5 0t62.5 0t62.5 0t62.5 0t62.5 0t62.5 0t62.5 0t62.5 0t62.5 0t62.5 0t62.5 0t62.5 0V200H-62.5Z" fill="url(#liquido)"/>
-            <path d="M-62.5 42q31.25-9 62.5 0t62.5 0t62.5 0t62.5 0t62.5 0t62.5 0t62.5 0t62.5 0t62.5 0t62.5 0t62.5 0t62.5 0t62.5 0t62.5 0t62.5 0t62.5 0t62.5 0t62.5 0" fill="none" stroke="#FFF6C2" stroke-width="5"/>
-          </g>
-        </g>
-      </svg>
-    </h1>
-    <p class="lema"><span class="es">Estudio chileno de videojuegos para celular y PC.</span><span class="en" lang="en">A Chilean video game studio for mobile and PC.</span></p>
+    <div class="sello">
+      <img class="emblema" src="emblema.webp" alt="" width="512" height="512">
+      <h1 class="logotipo">GEMERGR</h1>
+      <p class="lema"><span class="es">Estudio chileno de videojuegos para celular y PC.</span><span class="en" lang="en">A Chilean video game studio for mobile and PC.</span></p>
+    </div>
   </div>
 </header>
 
