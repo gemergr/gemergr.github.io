@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es" class="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GEMERGR SpA</title>
+<meta name="description" content="GEMERGR SpA, estudio chileno de videojuegos para celular y PC. Creadores de Brimful.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preload" href="assets/fuentes/unbounded-800.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/estilo.css">
+<script>(function(){var l;try{l=localStorage.getItem('idioma')}catch(e){}if(l!=='es'&&l!=='en'){l=/^es\b/i.test(navigator.language||'')?'es':'en'}var d=document.documentElement;d.className=l;d.lang=l})();</script>
+</head>
+<body>
+
+<header class="portada">
+  <div class="envoltura">
+    <div class="barra">
+      <div class="idiomas" role="group" aria-label="Idioma / Language">
+        <button type="button" data-idioma="es" lang="es" aria-pressed="false">Español</button>
+        <button type="button" data-idioma="en" lang="en" aria-pressed="false">English</button>
+      </div>
+    </div>
+    <h1>
+      <svg class="marca" viewBox="0 0 1000 150" role="img" aria-label="GEMERGR">
+        <defs>
+          <clipPath id="letras"><text x="0" y="140" font-size="150" textLength="1000" lengthAdjust="spacing">GEMERGR</text></clipPath>
+          <linearGradient id="liquido" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0" stop-color="#FFE14D"/>
+            <stop offset="1" stop-color="#E08A00"/>
+          </linearGradient>
+        </defs>
+        <g clip-path="url(#letras)">
+          <rect width="1000" height="200" fill="#2E1870"/>
+          <g class="nivel">
+            <path d="M-62.5 42q31.25-9 62.5 0t62.5 0t62.5 0t62.5 0t62.5 0t62.5 0t62.5 0t62.5 0t62.5 0t62.5 0t62.5 0t62.5 0t62.5 0t62.5 0t62.5 0t62.5 0t62.5 0t62.5 0V200H-62.5Z" fill="url(#liquido)"/>
+            <path d="M-62.5 42q31.25-9 62.5 0t62.5 0t62.5 0t62.5 0t62.5 0t62.5 0t62.5 0t62.5 0t62.5 0t62.5 0t62.5 0t62.5 0t62.5 0t62.5 0t62.5 0t62.5 0t62.5 0t62.5 0" fill="none" stroke="#FFF6C2" stroke-width="5"/>
+          </g>
+        </g>
+      </svg>
+    </h1>
+    <p class="lema"><span class="es">Estudio chileno de videojuegos para celular y PC.</span><span class="en" lang="en">A Chilean video game studio for mobile and PC.</span></p>
+  </div>
+</header>
+
+<main class="envoltura">
+
+  <section aria-labelledby="t-juegos">
+    <h2 id="t-juegos"><span class="es">Juegos</span><span class="en" lang="en">Games</span></h2>
+    <div class="juego">
+      <img src="brimful/icono.png" alt="" width="256" height="256">
+      <div>
+        <h3>Brimful</h3>
+        <p class="es">Un rompecabezas de física de líquidos: mueve y gira el recipiente para llenarlo hasta la marca con un solo chorro.</p>
+        <p class="en" lang="en">A liquid-physics puzzle: move and rotate the container to fill it to the mark with a single stream.</p>
+        <p class="estado"><span class="es">Llega a Google Play en marzo de 2027.</span><span class="en" lang="en">Coming to Google Play in March 2027.</span></p>
+        <p><a href="brimful/privacidad.html"><span class="es">Política de privacidad</span><span class="en" lang="en">Privacy policy</span></a></p>
+      </div>
+    </div>
+  </section>
+
+  <section aria-labelledby="t-contacto">
+    <h2 id="t-contacto"><span class="es">Contacto</span><span class="en" lang="en">Contact</span></h2>
+    <p class="es">Para soporte, consultas o solicitudes sobre tus datos personales, escríbenos a:</p>
+    <p class="en" lang="en">For support, questions or personal data requests, email us at:</p>
+    <p class="correo"><a href="mailto:gemergr11@gmail.com">gemergr11@gmail.com</a></p>
+  </section>
+
+  <section aria-labelledby="t-empresa">
+    <h2 id="t-empresa"><span class="es">Empresa</span><span class="en" lang="en">Company</span></h2>
+    <dl class="datos">
+      <dt><span class="es">Razón social</span><span class="en" lang="en">Legal name</span></dt>
+      <dd>GEMERGR SpA</dd>
+      <dt><span class="es">RUT</span><span class="en" lang="en">Chilean tax ID (RUT)</span></dt>
+      <dd>78.563.001-7</dd>
+      <dt><span class="es">Domicilio</span><span class="en" lang="en">Registered address</span></dt>
+      <dd>Badajoz 100, oficina 1014, Las Condes, Santiago, Chile</dd>
+      <dt><span class="es">Representante legal</span><span class="en" lang="en">Legal representative</span></dt>
+      <dd>Germán Ignacio Hoffmann Yévenes</dd>
+    </dl>
+  </section>
+
+</main>
+
+<footer>
+  <div class="envoltura"><p>© 2026 GEMERGR SpA</p></div>
+</footer>
+
+<script>(function(){var d=document.documentElement,b=document.querySelectorAll('[data-idioma]');function marcar(){for(var i=0;i<b.length;i++){b[i].setAttribute('aria-pressed',String(b[i].getAttribute('data-idioma')===d.className))}}for(var i=0;i<b.length;i++){b[i].addEventListener('click',function(){var l=this.getAttribute('data-idioma');d.className=l;d.lang=l;try{localStorage.setItem('idioma',l)}catch(e){}marcar()})}marcar()})();</script>
+</body>
+</html>
